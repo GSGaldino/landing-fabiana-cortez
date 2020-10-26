@@ -2,6 +2,7 @@
   background: url('/header-bg-desktop.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -21,7 +22,6 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  padding-bottom: 20px;
   margin-right: 80px;
 }
 

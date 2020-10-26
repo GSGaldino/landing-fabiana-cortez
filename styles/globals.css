@@ -11,4 +11,10 @@ button{
 
 body{
   font-family: "Montserrat", sans-serif, Ubuntu;
+  background: #f1f1f1;
+}
+
+body img{
+  position: relative;
+  max-width: 100%;
 }
