@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  background: #fff;
+  padding: 40px;
+  box-shadow: 4px -4px 10px rgba(0,0,0,.1);
+}
+
+.footer .item {
+  display: flex;
+}
+
+.footer .icon {
+  width: 26px;
+}

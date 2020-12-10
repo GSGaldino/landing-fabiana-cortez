@@ -1,0 +1,51 @@
+.skills {
+  max-width: var(--max-width);
+  margin: 20px auto;
+}
+
+.containerSkills {
+  box-shadow: 0 0 20px rgba(0,0,0,.2);
+  padding: 10px 40px 40px 40px;
+  border-radius: 4px;
+  margin: 20px auto;
+  background: #fff;
+}
+
+.containerSkills .skill {
+  display: flex;
+  justify-content: flex-start;
+  margin: 16px auto;
+}
+
+.containerSkills .skill .text {
+  width: 120px;
+}
+
+@keyframes size{
+  from {
+    width: 0%;
+  }
+  to{
+    width: 87%;
+  }
+}
+
+.containerSkills .skill .percent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  animation: size 2s ease;
+  animation-fill-mode:forwards;
+}
+
+.containerSkills .skill .percent .bar {
+  display: block;
+  position: relative;
+  height: 18px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.containerSkills .skill .percent .bar:hover {
+  filter: saturate(140%);
+}

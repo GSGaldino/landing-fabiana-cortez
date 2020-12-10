@@ -1,0 +1,52 @@
+.text {
+  max-width: var(--max-width);
+  margin: 80px auto;
+  padding: 40px;
+  position: relative;
+}
+
+.text:before {
+  content: '';
+  height: 1px;
+  background: #333;
+  width: 10%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+
+.text:after {
+  content: '';
+  height: 1px;
+  background: #333;
+  width: 10%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+}
+
+.text p:before{
+  content: '';
+  height: 1px;
+  background: #333;
+  width: 10%;
+  display: block;
+  position: absolute;
+  top: 34px;
+  left: -50px;
+  transform: rotate(90deg);
+}
+
+.text p:after{
+  content: '';
+  height: 1px;
+  background: #333;
+  width: 10%;
+  display: block;
+  position: absolute;
+  bottom: 34px;
+  right: -50px;
+  transform: rotate(90deg);
+}

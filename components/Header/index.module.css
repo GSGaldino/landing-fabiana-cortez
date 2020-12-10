@@ -27,20 +27,32 @@
 
 .header div:last-child a{
   margin: 0px 10px;
-  background: #333;
+  background: #F1F1F1;
   padding: 6px;
-  border-radius: 100%;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  box-shadow: 2px 4px 6px rgba(0,0,0,.25);
+  transition: all 0.4s ease;
+  border: 1px solid #f1f1f1;
 }
 
 .header div:last-child a:hover{
   filter: brightness(110%);
-  box-shadow: 0 2px 6px rgba(0,0,0,.25);
+  box-shadow: 2px 4px 10px rgba(0,0,0,.2);
+  background: #333;
+  color: #f1f1f1;
+  border-color: #333;
 }
 
 .header div:last-child a svg{
-  fill: #fff;
+  fill: #333;
+  padding: 2px;
+  transition: all 0.4s ease;
+}
+
+.header div:last-child a:hover svg {
+  fill: #F1F1F1;
 }
